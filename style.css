@@ -1,11 +1,8 @@
+/* Body related style */
 body{
     font-family: 'Open Sans', sans-serif;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+/* Text and button realted style */
 .text-primary{
  color: #FD6E0A;
 }
@@ -18,6 +15,13 @@ nav{
    font-weight: 700;
   padding: 15px 35px
 }
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .nav-title{
     color: #181818;
 font-size: 45px;
@@ -37,4 +41,43 @@ nav > ul li{
 nav a {
     text-decoration: none;
     color: #474747
+}
+/* header related style */
+header{
+    background-color: #FFF8f3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+/* Banner realted style */
+.banner{
+    padding-left: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner img{
+    width: 500px;
+}
+.txt{
+    margin-left: 100px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color:#474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size:85px ;
+    font-weight: 700;
+    margin-top: 6px;
+    margin-bottom:10px;
+} 
+.banner-description{
+    font-size: 18px;
+    color: rgb(114, 112, 112);
+    margin-bottom: 20px;
+}
+button{
+ margin-right: 10px;
 }
