@@ -15,6 +15,17 @@ body{
    font-weight: 700;
   padding: 15px 35px
 }
+.section-title{
+    color : #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 /* nav related style */
 nav{
     display: flex;
@@ -80,4 +91,29 @@ header{
 }
 button{
  margin-right: 10px;
+}
+/* Main section styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+/* about section styles */
+.about{
+    padding: 130px;
+    margin: 130px 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    margin-bottom: 10px;
 }
